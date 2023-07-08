@@ -1,0 +1,19 @@
+npm create vite@latest
+cd cotizador-prestamos-react
+npm install
+npm run dev
+borramos todo lo que no usamos
+abrimos el nuevo proyecto
+instalamos tailwindcss
+npm install -D tailwindcss postcss autoprefixer
+npx tailwincss init -p 
+esto nos crea dos archivos, y vamos a editar el que dice tailwind.config.cjs
+dentro en el content agregamos "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}"
+    en index css agregamos lo siguiente
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}"
+    vamos a index css y agregamos lo siguiente
+    @tailwind base; 
+@tailwind components;
+@tailwind utilities;
