@@ -45,7 +45,8 @@ function App() {
   }
   return (
     <>
-      < div className="my-20 max-w-lg mx-auto bg-white shadow p-10">
+      < div className="block my-20 max-w-lg mx-auto bg-white shadow p-10">
+
         <Header />
 
         <div className="flex justify-between my-6">
